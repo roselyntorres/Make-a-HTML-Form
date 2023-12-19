@@ -3,43 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML Form</title>
 
-    <style> 
-     
-     input[type=button] {
-        background-color: #0476aa;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-     }
-
-     input[type=button] {
-        background-color: #0476aa;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-  text-align: right;
-     }
-     
-
-        </style>
-
+   
 
 </head>
 
 <body>
+   <nav class="main-nav">
+      <ul>
+        <li><a href="/PatientInfo.html" class="Patient Info">Patient Info</a></li>
+        <li><a href="/InsuranceInfo.html">Insurance Info</a></li>
+        <li><a href="/Procedure.html">Procedure</a></li>
+        <li><a href="/Search.html">Search</a></li>
+      </ul>
+    </nav>
+    <main>
+   <br>
+   <br>
 <h4>Let's start with</h4>   
 <h1> The Patient</h1>     
-
-
-
+<input type="button" value="Myself">
+<input type="button" class="someone else" value="Someone else">
+<br>
     
     <input type="text" name="First Name" id="First Name" placeholder="First name"
     required>
@@ -49,8 +36,7 @@
 
     <input type="text" name="Last name" id="Last name" placeholder="Last name"
     required>
-    <input type="button" value="Myself">
-    <input type="button" value="Someone else">
+ 
 <br>
 <br>
 <input type="text" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth"
